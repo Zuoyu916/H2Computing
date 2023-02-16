@@ -1,3 +1,9 @@
-x=0
-while x <3:
-    print(f"trial on remote terminal {x}")
+import random
+
+def start_window(key):
+    print("[ ][ ][ ]")
+    print("[ ][O][ ]")
+    print("[ ][ ][ ]")
+
+def main():
+    input("where do you want to move?")
